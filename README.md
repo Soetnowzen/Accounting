@@ -20,7 +20,8 @@ If the string is “SET” then it is followed by two integers *i* and *x* with 
 For each event of type “PRINT”, write the 
 th person’s capital.
 
-### Sample Input 1
+### Sample 1
+#### Input
 ```
 3 5
 SET 1 7
@@ -30,14 +31,15 @@ RESTART 33
 PRINT 1
 ```
 
-###	Sample Output 1
+#### Output
 ```
 7
 0
 33
 ```
 
-### Sample Input 2
+### Sample 2
+#### Input
 ```
 5 7
 RESTART 5
@@ -49,7 +51,7 @@ PRINT 4
 PRINT 5
 ```
 
-### Sample Output 2
+#### Output
 ```
 5
 5
