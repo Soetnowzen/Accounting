@@ -31,13 +31,13 @@ class StateMachine():
         """
         An event of type "SET i x" means that the ith person’s wealth is set to x
         """
-        self.persons[i] = x
+        self.persons[i-1] = x
 
     def print_command(self, i):
         """
         An event of type “PRINT i” reports the current wealth of the ith person.
         """
-        print(self.persons[i])
+        print(self.persons[i-1])
 
     def restart_command(self, x):
         """
