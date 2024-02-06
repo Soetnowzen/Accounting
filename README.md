@@ -12,9 +12,9 @@ Erika needs to run a simulation a large number of times to check if her model wo
 Unfortunately, Erika’s current implementation is very slow; it takes far too much time to keep track of how much money everybody has. She decides to use her algorithmic insights to speed up the simulation.
 
 ## Input
-The first line includes two integers *N* and *Q*, where $`1 <= N <= 10^6`$ and $`1 <= Q <= 2*15^5`$. The following *Q* lines each start with a string that is either “SET”, “RESTART”, or “PRINT”. There is guaranteed to be at least one event of type “PRINT”.
+The first line includes two integers *N* and *Q*, where $`1 \leq N \leq 10^6`$ and $`1 \leq Q \leq 2*15^5`$. The following *Q* lines each start with a string that is either “SET”, “RESTART”, or “PRINT”. There is guaranteed to be at least one event of type “PRINT”.
 
-If the string is “SET” then it is followed by two integers *i* and *x* with $`1 <= i <= N`$ and $`0 <= x <= 10^4`$. If the string is “RESTART” then it is followed by an integer *x* with $`0 <= x <= 10^4`$. If the string is “PRINT” then it is followed by an integer *i* with $`1 <= i <= N`$.
+If the string is “SET” then it is followed by two integers *i* and *x* with $`1 \leq i \leq N`$ and $`0 \leq x \leq 10^4`$. If the string is “RESTART” then it is followed by an integer *x* with $`0 \leq x \leq 10^4`$. If the string is “PRINT” then it is followed by an integer *i* with $`1 \leq i \leq N`$.
 
 ## Output
 For each event of type “PRINT”, write the 
