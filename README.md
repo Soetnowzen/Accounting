@@ -57,3 +57,9 @@ PRINT 5
 5
 5
 ```
+
+## Version
+Python 3.12.1
+
+## Run command
+python -m unittest .\tests\test_accounting.py
