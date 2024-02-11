@@ -21,7 +21,7 @@ def execute_event(N, Q, input_string):
                 if 0 <= x and x <= pow(10, 4):
                     stateMachine.restart_command(x)
             case _:
-                print("Unkown command", line)
+                print("Unknown command", line)
 
 class StateMachine():
     def __init__(self, N) -> None:
