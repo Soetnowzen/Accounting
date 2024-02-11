@@ -67,7 +67,7 @@ class Test2048(unittest.TestCase):
         sys.stdout = capturedOutput
         input_string = """SET 1 7\nPRINT 1\nINVALID_COMMAND\nRESTART -1\nPRINT 1"""
         execute_event(3, 5, input_string)
-        expected_output = """7\nUnknown command ['INVALID_COMMAND']\n7\n"""
+        expected_output = """7\nUnknown command: ['INVALID_COMMAND']\n7\n"""
         self.assertEqual(capturedOutput.getvalue(), expected_output)
 
 
